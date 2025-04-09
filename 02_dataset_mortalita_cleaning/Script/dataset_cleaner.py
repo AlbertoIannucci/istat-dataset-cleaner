@@ -38,4 +38,4 @@ modello = DatasetCleaner("../Dataset/dataset.csv")
 # Nan = nessuno
 # Passo 5. Drop variabili con <2 valori univoci
 # Passo 6. Creazione del nuovo csv
-modello.dataframe_sistemato.to_csv("../Dataset/dataset_nuovo.csv")
+modello.dataframe_sistemato.to_csv("../Dataset/dataset_nuovo.csv", index=False)
