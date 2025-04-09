@@ -43,4 +43,4 @@ modello = DatasetCleaner("../Dataset/dataset.csv")
 #modello.analisi_generali(modello.dataframe_sistemato)
 #modello.analisi_valori_univoci(modello.dataframe_sistemato, ["OBS_VALUE"])
 # Passo 7. Creazione del nuovo cvs
-modello.dataframe_sistemato.to_csv("../Dataset/dataset_nuovo.csv")
+modello.dataframe_sistemato.to_csv("../Dataset/dataset_nuovo.csv", index=False)
